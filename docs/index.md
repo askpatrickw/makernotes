@@ -6,4 +6,4 @@ If you have suggestions, suggestions, please open an Issue or submit a PR. I'm h
 
 ## Machine Specific Notes
 
-### [Laser Cutter](/machines/laser-cutter.md)
+### [Laser Cutter](machines/laser-cutter.md)
