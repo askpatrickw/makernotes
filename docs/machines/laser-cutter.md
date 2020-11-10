@@ -6,7 +6,7 @@ Things you should know about the Laser Cutter.
 There are two [Black Cat Labs 90 Watt CO2 Lasers](https://www.blackcatlabs.xyz/laser-cutters) at Seattle Makers.
 They use an Ruida controller and [Lightburn Software](https://lightburnsoftware.com/) to control.
 
-![Light Burn Software](static/img/Title_LightBurn_360x.jpg)
+![Light Burn Software](../static/img/Title_LightBurn_360x.jpg)
 
 ## Materials
 
@@ -19,13 +19,13 @@ They use an Ruida controller and [Lightburn Software](https://lightburnsoftware.
  
 - Cut: acrylic, wood, paper, leather, some plastics, some foams
 - Engrave / etch: the materials above plus glass, anodized aluminum
-- [Full list of laserable materials](static/files/Laser-cut-and-dont-cut-materials-list.pdf) (list courtesy of ATX Makerspace)
+- [Full list of laserable materials](../static/files/Laser-cut-and-dont-cut-materials-list.pdf) (list courtesy of ATX Makerspace)
 
 ### Disallowed Materials
 You may hurt yourself, the machine, our just ruin your materials.
 
 - Can’t cut: polycarbonate, metal, glass, PVC, most plastics
-- [Full list of non-laserable materials](static/files/Laser-cut-and-dont-cut-materials-list.pdf) (list courtesy of ATX Makerspace)
+- [Full list of non-laserable materials](../static/files/Laser-cut-and-dont-cut-materials-list.pdf) (list courtesy of ATX Makerspace)
 
 
 ## Usage Rules
@@ -55,7 +55,7 @@ You can design on the PCs at Seattle Makers or at home on your own computer. Ass
 
 #### Material Setup
 
-1. You should use "masked" materials to get the highest quality output for your projects. The masking is a paper covering on the material which protects the material from smoke damage during the cutting process. This is true for woods and plastics.
+1. You must use "masked" materials to get the highest quality output for your projects. The masking is a paper covering on the material which protects the material from smoke damage during the cutting process. This is true for woods and plastics.
 1. Secure your material in the machine using the hold-downs supplied at Seattle Makers.
 
 #### Machine Setup
