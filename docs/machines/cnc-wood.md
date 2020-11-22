@@ -56,10 +56,38 @@ Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcar
 [CNCJS](https://cnc.js.org/) is used for controlling the Shapeoko based on the g-code created in VCarve.
 ![CNCJS Bannner](../static/img/cnc-mill/cncjs.png)
 
+### VCarve Designing
+
+**Job Setup**
+Assuming a Single Sided project or "Job Type" as it is called in VCarve:
+- Configure your job Size dimensions: width (x axis), length (y axis) and your material thickness.
+- Set Z Zero Position to be Material Surface
+- Set Datum Position to be Material Surface  
+![VCArve Job Setup](../static/img/cnc-mill/vcarve_job_setup.png)
+
+**Draw your Project**
+
+In your Vcarve Class, you will learn how to make a basic design. We won't go into too much more about that here. See the Additional Resources for links to more tutorials, especially the Vectric YouTube channel.
+
+**Specify Toolpaths**
+
+For each element of your design, you need to specify the bit (tool) and any other parameters for its cutting process.
+
 ### VCarve Tips
 
-- When in Preview Toolpaths: If the preview doesn't look like you expect, click "Preview All Toolpaths" to be sure all of your changes are visible. The preview only updates when you tell it to, not when you make other changes.
-- In 2D, show your toolpaths and be sure they are properly lined up (on top of your drawing). If not re-calculate your toolpaths to align your toolpaths with any design changes you've made. In this example you can see the toolpath for "Door" is below where it should be. As opposed to the pefectly aligned toolpath for the circle below it.  
+- **Tabs**
+    - If you're cutting through your material with this tool path, you need to add the through cut amount back to your tabs. For example: If your cutting to a depth of 15mm to cut all the way through your 12 mm material, you should add those 3mm back to your tabs. So a 9mm thick tab would actualy be 6mm. 
+    - Use 3-D Tabs as a preferred setting.
+- **Profile Toolpaths**:
+    - Enable Add Ramps to toolpaths to prevent burning of your material where the bit plunges repeatedly
+    - To leave some material for sandig or other finishing work, you can use the offset allownce in the Machine Vectors.
+    - When setting up a profile toolpath, also select "Seperate Last Pass" to get a better final cut quality.
+        - The last pass will remove your material allowance if you don't also have and allowance on the last pass as well.
+    
+- **3-D or Toolpath Preview**: 
+    - If the preview doesn't look like you expect, click "Reset Preview" and then replay the preview.
+- **2D Toolpath alignment**:
+    - Show your toolpaths and be sure they are properly lined up (on top of your drawing). If not re-calculate your toolpaths to align your toolpaths with any design changes you've made. In this example you can see the toolpath for "Door" is below where it should be. As opposed to the pefectly aligned toolpath for the circle below it.  
 ![2D Toolpath Alignment](../static/img/cnc-mill/2d_toolpath_alignment.png)
 
 ### Bits
@@ -69,7 +97,6 @@ There are 1/4" End Mills and 1/2" 90 Degree V-Bits for general use at Seattle Ma
 For higher quality cuts and speciality bits, [McMaster-Carr is a great sours of router bits](https://www.mcmaster.com/standard-router-tools).
 
 > Note: The Shapeoko will accept 1/4" or 1/8" shank bits.
-
 
 ## Additional Resources
 
