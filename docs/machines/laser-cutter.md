@@ -46,7 +46,7 @@ Laser cutter time is charged in 15-minute increments.
 
 
 
-## Designing your project
+## Designing and Cutting your project
 
 A Laser uses 2D graphics files (as opposed to a 3D CAD file) as the information to control the machine. In the certification class you will learn to use LigthBurn to make a design. You can also use other software, as long as those programs can create SVG, DXG or AI files.
 
