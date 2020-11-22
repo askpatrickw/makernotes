@@ -56,6 +56,11 @@ Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcar
 [CNCJS](https://cnc.js.org/) is used for controlling the Shapeoko based on the g-code created in VCarve.
 ![CNCJS Bannner](../static/img/cnc-mill/cncjs.png)
 
+### VCarve Tips
+
+- When in Preview Toolpaths: If the preview doesn't look like you expect, click "Preview All Toolpaths" to be sure all of your changes are visible. The preview only updates when you tell it to, not when you make other changes.
+- In 2D, show your toolpaths and be sure they are properly lined up (on top of your drawing). If not re-calculate your toolpaths to align your toolpaths with any design changes you've made. In this example you can see the toolpath for "Door" is below where it should be. As opposed to the pefectly aligned toolpath for the circle below it.  
+![2D Toolpath Alignment](../static/img/cnc-mill/2d_toolpath_alignment.png)
 
 ### Bits
 
