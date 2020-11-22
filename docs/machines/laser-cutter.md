@@ -46,7 +46,7 @@ Laser cutter time is charged in 15-minute increments.
 
 
 
-### Designing your project
+## Designing your project
 
 A Laser uses 2D graphics files (as opposed to a 3D CAD file) as the information to control the machine. In the certification class you will learn to use LigthBurn to make a design. You can also use other software, as long as those programs can create SVG, DXG or AI files.
 
@@ -93,7 +93,7 @@ The right side is where you'll do most of your machine setup setups on the Ruida
     1. Open the lid and remove your work.
     1. If you're materials smells (acrylic, rubber, etc..) leave the fan running longer or set the materials outside so everyone doesn't have to breathe the fumes.
 
-### Additional Resources
+## Additional Resources
 **Samples**
 These samples are available in the the shop as well.
 They help you decide on the SPEED and the POWER settings for your project.
