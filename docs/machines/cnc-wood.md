@@ -1,5 +1,7 @@
 # Wood CNC Mill
 
+![Seattle Makers Shapeoko CNC](../static/img/cnc-mill/seattlemakers_shapeoko.png)
+
 ## Make & model
 
 [![Carbide 3D Logo](../static/img/cnc-mill/carbide3D.png)  
@@ -36,7 +38,7 @@ What it can do:
 
 ## Usage Rules
 
-Certification: [Vectric VCarve Pro design class](https://seattlemakers.org/catalog#vcarve) and [CNC-Mill machine certification](https://seattlemakers.org/catalog#CNCcert) are both required in order to use the machine solo.
+Certification: [Vectric VCarve Pro design class](https://seattlemakers.org/catalog#vcarve) and [CNC-Mill machine certification](https://seattlemakers.org/catalog#CNCcert) are both required in order to use the machine solo.  
 File type: .svg, .dxf
 
 ## Pricing
@@ -46,12 +48,12 @@ Time on this machine will be charged in 30-minute increments. [Buy time](https:/
 ## Designing and Milling your project
 
 Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcarve-pro) for designing and generating the g-code for you project 
-![VCarce Logo](../static/img/cnc-mill/vcarve_desktop.png)
+![VCarce Logo](../static/img/cnc-mill/vcarve_pro.png)
 > Note: VCarve only runs on Windows.
 
 > NOTE: You will be able use the Trial version of VCarve indefinitely for your designs when you have completed the certification.
 
-[CNCJS](https://cnc.js.org/) is used for controlling the Shaepoko.
+[CNCJS](https://cnc.js.org/) is used for controlling the Shapeoko based on the g-code created in VCarve.
 ![CNCJS Bannner](../static/img/cnc-mill/cncjs.png)
 
 
@@ -64,9 +66,11 @@ For higher quality cuts and speciality bits, [McMaster-Carr is a great sours of 
 > Note: The Shapeoko will accept 1/4" or 1/8" shank bits.
 
 
-## Useful Links
+## Additional Resources
 
-- [Vectric VCarve Pro ](https://www.vectric.com/products/vcarve-pro)
+**Software**
+- [Vectric VCarve Pro ](https://www.vectric.com/products/vcarve-pro) Product Site
 - [Vectric's YouTube Channel](https://www.youtube.com/user/Vectric)
-- [Demonstration of different router bit types](https://www.youtube.com/watch?v=2FjXsZKrobQ)
-- [CNCJS](https://cnc.js.org/) and [CNCJS Documentation](https://cnc.js.org/docs/)
+- [CNCJS](https://cnc.js.org/) Project Site 
+- [CNCJS Documentation](https://cnc.js.org/docs/)
+- [Demonstration of different router bits](https://www.youtube.com/watch?v=2FjXsZKrobQ)
