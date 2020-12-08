@@ -15,4 +15,4 @@ If you have suggestions, suggestions, please open an Issue or submit a PR. I'm h
 
 ### [Laser Cutter](machines/laser-cutter.md)
 
-### [Shapeoko CNC](machines/cnc.md)
+### [Shapeoko Wood CNC](machines/cnc-wood.md)
