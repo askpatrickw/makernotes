@@ -113,8 +113,8 @@ When the router is running, you should be ready to PAUSE the CNC with the mouse,
 ## CNC Setup
 
 1. Make sure the CNC is clear of everything not related to your project and clean of dust.
-1. Clamp your spoil board and your workpiece to the machine bed.
-    > You should be able to push firmly on your workpiece and the machine (not your workpiece) should move first.
+1. Clamp your spoil board and your workpiece to the machine bed.  
+You should be able to push firmly on your workpiece and the machine (not your workpiece) should move first.
 1. Install the first bit you will use in your project.
 1. Zero the Bit
 1. Setup the dust collection
@@ -150,9 +150,10 @@ The position of your cutting tool (X, Y, Z) can be referenced from the machine's
 
 **Moving the Gantry by Hand**
 
+When the CNC is _off_, it is ok to _SLOWLY_ push the gantry around. _Slowly_ is key so as not to fry the motors or control boards.
+
 If you can't push the gantry around, the CNC is on. *STOP* and turn off the CNC.
 
-When the CNC is _off_, it is ok to _SLOWLY_ push the gantry around. _Slowly_ is key so as not to fry the motors or control boards.
 
 **X, Y Axis Zero**
 
@@ -189,7 +190,6 @@ When you're not ready to run the CNC, keep the router unplugged from extension c
 
 1. In the web browser connect to the CNC on COM3
 1. Click HOMING button to move the upper right most positions (-5,-5)
-
 
 **Saving Toolpaths to G-Code**
 
