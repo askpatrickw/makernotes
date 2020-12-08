@@ -17,14 +17,16 @@ Size Constraints:
 - 30in x 30in bed (762 mm x 762mm)
 - Max material thickness: 2.5″ (63.5mm)
 - Max cut thickness: up to 2.5″(63.5mm), varies by router bit
-- Router Bits: 1/8" & 1/4"
+- Router Bits: 1/4" and 1/8" shank bits supported
 
-What it can do: 
 
-- Subtractive manufacturing
-- Engraving
-- Sign making
-- Furniture prototyping
+## Usage Rules
+
+Certification: [Vectric VCarve Pro design class](https://seattlemakers.org/catalog#vcarve) and [CNC-Mill machine certification](https://seattlemakers.org/catalog#CNCcert) are both required in order to use the machine solo.
+
+## Pricing
+
+Time on this machine will be charged in 30-minute increments. [Buy time](https://seattlemakers.org/store/items/machine-time/) and [schedule time](https://seattlemakers.org/schedule/) on the Seattle Makers website.
 
 ## Materials
 
@@ -44,13 +46,6 @@ A spoil board is a sacrificial piece of wood placed under your workpiece. When y
 
 The maker space has some small pieces of 1/4" MDF you can use for small projects, but if you are going to be doing lots of cuts or many projects, you should bring your own spoil board along with your workpiece.
 
-## Usage Rules
-
-Certification: [Vectric VCarve Pro design class](https://seattlemakers.org/catalog#vcarve) and [CNC-Mill machine certification](https://seattlemakers.org/catalog#CNCcert) are both required in order to use the machine solo.
-
-## Pricing
-
-Time on this machine will be charged in 30-minute increments. [Buy time](https://seattlemakers.org/store/items/machine-time/) and [schedule time](https://seattlemakers.org/schedule/) on the Seattle Makers website.
 
 ## Designing and Milling your project
 
@@ -62,7 +57,7 @@ Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcar
 
 > NOTE: You will be able use the Trial version of VCarve indefinitely for your designs when you have completed the certification.
 
-![CNCJS Banner](../static/img/cnc-mill/cncjs.png)
+![CNCJS Banner](../static/img/cnc-mill/cncjs_logo.png)
 
 [CNCJS](https://cnc.js.org/) is a browser-based interface used for controlling the Shapeoko based on the g-code created in VCarve. Run the CNCJS service from the command line and access the application from the web browser on the PC connected to the CNC. The [documentation for CNCJS](https://cnc.js.org/docs/) is a good resource.
 
@@ -92,7 +87,7 @@ For each cut in your design, specify the bit (tool) and any other parameters for
 
 A ghost cut moves the router through the outer outline of your project so you can visually inspect that your cut will stay on your work piece and not hit any clamps. To create a ghost cut:
 
-1. Make a duplicate of the toolpath which will cut the outline of your project by right clicking ont he toolpath and selecting duplicate.
+1. Make a duplicate of the toolpath which will cut the outline of your project by right clicking on the toolpath and selecting duplicate.
 1. Rename the toolpath to so it starts with "Ghost".
 1. Change the cut depth to 1 mm on the Ghost toolpath.
 1. Calculate the toolpath and review in the preview.
@@ -106,6 +101,7 @@ With the VCarve Maker Space Client Edition, you can save your design and toolpat
 ## Safety
 
 You will need:
+
 1. Hearing protection
 1. Eye protection
 1. Dust protection
@@ -158,7 +154,7 @@ If you can't push the gantry around, the CNC is on. *STOP* and turn off the CNC.
 
 When the CNC is _off_, it is ok to _SLOWLY_ push the gantry around. _Slowly_ is key so as not to fry the motors or control boards.
 
-**X, Y Zero**
+**X, Y Axis Zero**
 
 Using the CNCJS program, move the bit using the X and Y controls to place the tip of the bit directly over the "X" you drew at the center of your work piece. When you are happy with the positioning, click the Zero Work Position for the X and Y axis in CNCJS. 
 
@@ -266,6 +262,7 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 ## Additional Resources
 
 **Software**
+
 - [Vectric VCarve Pro ](https://www.vectric.com/products/vcarve-pro) Product Site
 - [Vectric's YouTube Channel](https://www.youtube.com/user/Vectric)
 - [CNCJS](https://cnc.js.org/) Project Site 
@@ -275,11 +272,11 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 
 ## Glossary
 
-- 611: The Dewalt 611 Router
-- 611 Dial: The router RPM setting dial on the Dewalt 611 Router
-- DOC: Depth of Cut, how deep you are (or can) cut with a specific bit
-- Feed: The speed of the bit in the X\Y axis 
-- Plunge: The speed of the bit in the Z axis
-- RPM: Revolutions per Minute of the router bit
-- X0Y0: Move the router to the X\Y work position home.
-- Z0: Move the router to the Z work position home.
+- **611**: The Dewalt 611 Router
+- **611 Dial**: The router RPM setting dial on the Dewalt 611 Router
+- **DOC**: Depth of Cut, how deep you are (or can) cut with a specific bit
+- **Feed**: The speed of the bit in the X\Y axis 
+- **Plunge**: The speed of the bit in the Z axis
+- **RPM**: Revolutions per Minute of the router bit
+- **X0Y0**: This CNCJS button moves the router to the X\Y work position home.
+- **Z0**: This CNCJS button moves to the Z work position home.
