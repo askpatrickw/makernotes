@@ -38,6 +38,12 @@ What it can do:
 - Metal
 - glass
 
+### Spoil Board
+
+A spoil board is a sacrificial piece of wood placed under your workpiece. When you cut all the way through your workpiece you will cut into the spoil board.
+
+The maker space has some small pieces of 1/4" MDF you can use for small projects, but if you are going to be doing lots of cuts or many projects, you should bring your own spoil board along with your workpiece.
+
 ## Usage Rules
 
 Certification: [Vectric VCarve Pro design class](https://seattlemakers.org/catalog#vcarve) and [CNC-Mill machine certification](https://seattlemakers.org/catalog#CNCcert) are both required in order to use the machine solo.
@@ -67,8 +73,7 @@ Assuming a Single Sided project or "Job Type" as it is called in VCarve:
 
 - Configure your job Size dimensions: width (x axis), length (y axis) and your material thickness.
 - Set Z Zero Position to be Material Surface
-- Set Datum Position to be Material Surface
-
+- Set Datum Position to be Material Surface  
 ![VCarve Job Setup](../static/img/cnc-mill/vcarve_job_setup.png)
 
 **Draw your Project**
@@ -98,9 +103,7 @@ With the VCarve Maker Space Client Edition, you can save your design and toolpat
 
 > Note: Quite often, members setup their toolpaths in the maker space instead of at home where they may not know all the bit specific settings. You cannot export the G-Code at home, this requires the fully licensed version of VCarve.
 
-## Setting Up In the Shop
-
-### Safety
+## Safety
 
 You will need:
 1. Hearing protection
@@ -111,7 +114,7 @@ Let everyone in the wood shop know before you turn on the router so they can als
 
 When the router is running, you should be ready to PAUSE the CNC with the mouse, or turn off the CNC completely by using the switch with red tape on it. This means you're standing at the keyboard area.
 
-### CNC Setup
+## CNC Setup
 
 1. Make sure the CNC is clear of everything not related to your project and clean of dust.
 1. Clamp your spoil board and your workpiece to the machine bed.
@@ -123,7 +126,7 @@ When the router is running, you should be ready to PAUSE the CNC with the mouse,
 
 ![Dewalt 611 Speeds](../static/img/cnc-mill/dewalt_611_speeds.png)
 
-#### Clamping Your Workpiece
+### Clamping Your Workpiece
 
 > NOTE: Prior to clamping, mark the exact center of your work piece and place a small X there.
 
@@ -132,7 +135,7 @@ This image shows how you use the clamps provided. The blocks on the backside of 
 ![CNCJS Screenshot](../static/img/cnc-mill/shapeoko_clamp.png)
 
 
-#### Router Bit Installation
+### Router Bit Installation
 
 If your project uses more than one bit, such as a v-bit for letting and an end mill for cutting out shapes, install the first bit you will use. 
 
@@ -141,7 +144,7 @@ If your project uses more than one bit, such as a v-bit for letting and an end m
 Install the bit so all of its cutting surface extends beyond the colette.
 While pushing the lock button the router, tighten the bit firmly, careful to not over-tighten. "Wrist-strength" is the shop term, don't lean into it with your shoulder.
 
-#### Zero the Bit
+### Zero the Bit
 
 **Machine Position Vs. Work Position**
 
@@ -165,7 +168,7 @@ Using the CNCJS program, move the bit using the X and Y controls to place the ti
 
 Using the small shop note pad paper, place it over the "X" at the center of your piece. Using small steps, move the gantry down till your but _just_ catches the paper. Be careful not run you bit hard into the table. You want to creep-up on it at .1mm steps. when you are happy with the positioning, click the Zero Work Position for the Z axis in CNCJS.
 
-#### Dust Collection
+### Dust Collection
 
 Find the Festool Dust Collection vacuum and position it in front of the CNC. The arm will extend over the CNC and the hose attached to the dust collection boot on the router.
 
@@ -174,9 +177,12 @@ Find the Festool Dust Collection vacuum and position it in front of the CNC. The
 - The vacuum speed is set to "Rabbit" mode. 🐇
 - The vacuum is set to automatic, which triggers the vacuum to run only when the router is on.
 
+![Dust Collection](../static/img/cnc-mill/seattlemakers_shapeoko_dustcollection.png)
+
 When you're not ready to run the CNC, keep the router unplugged from extension cord hanging above the CNC.
 
-### Project Setup at the PC
+
+## Project Setup at the PC
 
 1. Turn on the PC connected to the CNC.
 1. Turn on the CNC.
@@ -205,7 +211,7 @@ Assuming you have your workpiece clamped, and you've zeroed the x, y, and Z axis
 - Make any corrections to your workpiece position, clamps, cord layout, X,Y home, etc.. until the Ghost cut looks good.
 - When you are happy with the ghost cut, re-home the Z axis. Don't just lower it blindly (or quickly), use the paper technique again.
 
-### Cutting Time
+## Time to Cut
 
 1. In CNCJS, open the g-code toolpath file for your first bit.
 1. Review your work area to ensure it is clear, safe and ready to go.
@@ -219,7 +225,7 @@ While cutting: Be ready to PAUSE the CNC with the mouse, or turn off the CNC com
 When your cut is complete, turn off and unplug the router.
 Change bits and run your next cut or move on to cleaning up if you are done.
 
-### Cleaning up
+## Cleaning up
 
 - Use the Festool to vacuum up all the dust and chips in your work area.
 - Return all the clamps and wedges to the CNC cart drawers.
