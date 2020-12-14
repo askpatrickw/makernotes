@@ -263,7 +263,7 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 
 **Books**
 
-- Make: Design For CNC (Seattle Public Library)[https://seattle.bibliocommons.com/item/show/3565923030] (Make: Shop)[https://www.makershed.com/products/make-design-for-cnc]
+- Make: Design For CNC [Seattle Public Library](https://seattle.bibliocommons.com/item/show/3565923030) [Make: Shop](https://www.makershed.com/products/make-design-for-cnc)
 
 **Software**
 
