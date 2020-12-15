@@ -261,9 +261,12 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 
 ## Additional Resources
 
-**Books**
+**Articles, Books & Videos**
 
 - Make: Design For CNC [Seattle Public Library](https://seattle.bibliocommons.com/item/show/3565923030) [Make: Shop](https://www.makershed.com/products/make-design-for-cnc)
+- [Spiral Bits - Compression VS Upcut VS Downcut VS Straight](https://www.youtube.com/watch?v=seAmL6mtqgM)
+- [50 Digital Wood Joints by Jochen Gros](http://winterdienst.info/50-digital-wood-joints-by-jochen-gros/)
+    - [50 Digital Joints - Real Assembly Examples](https://www.youtube.com/watch?v=PzTpfLcL1Y8)
 
 **Software**
 
@@ -271,7 +274,7 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 - [Vectric's YouTube Channel](https://www.youtube.com/user/Vectric)
 - [CNCJS](https://cnc.js.org/) Project Site 
 - [CNCJS Documentation](https://cnc.js.org/docs/)
-- [Spiral Bits - Compression VS Upcut VS Downcut VS Straight](https://www.youtube.com/watch?v=seAmL6mtqgM)
+
 
 
 ## Glossary
