@@ -14,7 +14,8 @@
 
 Size Constraints:
 
-- 30in x 30in bed (762 mm x 762mm)
+- The bed is 30in x 30in bed (762 mm x 762mm)
+  - The workable area is 28.4 x 24.5 (Measured the area that was "surfaced")
 - Max material thickness: 2.5″ (63.5mm)
 - Max cut thickness: up to 2.5″(63.5mm), varies by router bit
 - Router Bits: 1/4" and 1/8" shank bits supported
