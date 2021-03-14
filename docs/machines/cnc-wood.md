@@ -60,7 +60,11 @@ Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcar
 
 ![CNCJS Banner](../static/img/cnc-mill/cncjs_logo.png)
 
-[CNCJS](https://cnc.js.org/) is a browser-based interface used for controlling the Shapeoko based on the g-code created in VCarve. Run the CNCJS service from the command line and access the application from the web browser on the PC connected to the CNC. The [documentation for CNCJS](https://cnc.js.org/docs/) is a good resource.
+[CNCJS](https://cnc.js.org/) desktop App used for controlling the Shapeoko based on the g-code created in VCarve. Start CNCJS by clicking on the icon in the Task Bar or the Start Menu.
+
+> Note: Their used to be a NodeJS commanlide app you ran and then used CNCJS from the browser. That is no longer the case, use the desktop app.
+
+The [documentation for CNCJS](https://cnc.js.org/docs/) is a good resource.
 
 ### VCarve Designing
 
@@ -165,6 +169,10 @@ Using the CNCJS program, move the bit using the X and Y controls to place the ti
 **Paper Zeroing the Z Axis**
 
 Using the small shop note pad paper, place it over the "X" at the center of your piece. Using small steps, move the gantry down till your but _just_ catches the paper. Be careful not run you bit hard into the table. You want to creep-up on it at .1mm steps. when you are happy with the positioning, click the Zero Work Position for the Z axis in CNCJS.
+
+**Use the Probe to Zero the Z Axis**
+
+> coming soon..
 
 ### Dust Collection
 
