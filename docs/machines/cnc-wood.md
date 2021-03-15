@@ -118,6 +118,7 @@ When the router is running, you should be ready to PAUSE the CNC with the mouse,
 ### Fusion 360 Designing
 
 **Coming Soon**
+
 I run  MacOS and I want to focus my learning on Fusion 360 which I also use for Electronics work.
 So this is my process and when I dial it in, I'll share here.
 
