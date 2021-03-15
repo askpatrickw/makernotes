@@ -48,7 +48,7 @@ A spoil board is a sacrificial piece of wood placed under your workpiece. When y
 The maker space has some small pieces of 1/4" MDF you can use for small projects, but if you are going to be doing lots of cuts or many projects, you should bring your own spoil board along with your workpiece.
 
 
-## Designing and Milling your project
+## Designing and Milling Your Project
 
 ![VCarve Logo](../static/img/cnc-mill/vcarve_pro.png)
 
@@ -114,6 +114,12 @@ You will need:
 Let everyone in the wood shop know before you turn on the router so they can also put on hearing protection. Close the door to the wood shop as well.
 
 When the router is running, you should be ready to PAUSE the CNC with the mouse, or turn off the CNC completely by using the switch with red tape on it. This means you're standing at the keyboard area.
+
+### Fusion 360 Designing
+
+**Coming Soon**
+I run  MacOS and I want to focus my learning on Fusion 360 which I also use for Electronics work.
+So this is my process and when I dial it in, I'll share here.
 
 ## CNC Setup
 
