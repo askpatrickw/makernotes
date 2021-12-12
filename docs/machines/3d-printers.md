@@ -18,15 +18,15 @@ method.
 
 * * * * *
 
-# **First Time Setting up PrusaSlicer** 
+# **First Time Setting up PrusaSlicer**
 
-## **PrusaSlicer Software** 
+## **PrusaSlicer Software**
 
 ![View of PrusaSlicer](https://seattlemakers.org/wp-content/uploads/2020/08/2020-08-08_14-48-53.png)
 
 ## [Download PrusaSlicer software here.](https://www.prusa3d.com/prusaslicer/)
 
-This link will take you to the Prusa Website to download the correct version for your operating system 
+This link will take you to the Prusa Website to download the correct version for your operating system
 
 **If you're new to PrusaSlicer,** [check out their awesome documentation for getting started.](https://help.prusa3d.com/en/article/first-print-with-prusaslicer_1753) We also cover how to use it in our 3D Printer certification course.  
 
@@ -51,11 +51,11 @@ Our Prusa MK3s printers are stock, so using the default profiles that come with 
 
 To ensure that our printers continue to operate at peak efficiency please use our [profiles](https://github.com/dorfman2/SeattleMakersPrinterProfiles).
 
-#### Default Printer Profiles & Setting 
+#### Default Printer Profiles & Setting
 
 These are the recommended starting settings for our printers.
 
-ℹ️ **Note**: The rest of this sections assumes you have installed our profiles. Please see above for instructions on installing our printer profiles. 
+ℹ️ **Note**: The rest of this sections assumes you have installed our profiles. Please see above for instructions on installing our printer profiles.
 
 **Jinja & Ada**- Prusa MK3s
 
@@ -120,13 +120,13 @@ order to do so.  
 
 ## 3. Send G-Code To Printer (Start Printer)
 
-**No longer will you have to transfer your files to an SD card,** and then manually insert the card into the printer. Using a raspberry pi and a program called [OctoPrint](https://octoprint.org/), we now can send our G-Code directly from the slicer or web interface to the printer. 
+**No longer will you have to transfer your files to an SD card,** and then manually insert the card into the printer. Using a raspberry pi and a program called [OctoPrint](https://octoprint.org/), we now can send our G-Code directly from the slicer or web interface to the printer.
 
 ℹ️ **Note**: If you are having trouble with an Octoprint Interface, please ask a Maketeer. SD cards can be used as a backup, but please defer to them to make that determination.
 
 ### There are **two** ways to send your print.
 
-#### Directly from PrusaSlice 
+#### Directly from PrusaSlice
 
 This requires you to install an API Key in PrusaSlicer. Please contact Jeff on Slack (@Jeff) to get the API key. This allows you to send files to OctoPrint and start your print without using the web browser. After you've finished slicing:
 
@@ -164,7 +164,7 @@ After you've finished slicing:
 
 * * * * *
 
-How to Install the OctoPrint API' 
+How to Install the OctoPrint API'
 ----------------------------------
 
 (Coming Soon)

@@ -4,7 +4,7 @@
 
 ## Make & model
 
-![Carbide 3D Logo](../static/img/cnc-mill/carbide3D.png)  
+![Carbide 3D Logo](../static/img/cnc-mill/carbide3D.png)
 [Carbide 3D Shapeoko CNC](https://carbide3d.com/shapeoko/)
 
 - [GRBL Controller](https://docs.carbide3d.com/shapeoko-faq/controller-firmware-information/)
@@ -48,7 +48,7 @@ A spoil board is a sacrificial piece of wood placed under your workpiece. When y
 The maker space has some small pieces of 1/4" MDF you can use for small projects, but if you are going to be doing lots of cuts or many projects, you should bring your own spoil board along with your workpiece.
 
 
-## Designing and Milling Your Project
+## VCarve Designing
 
 ![VCarve Logo](../static/img/cnc-mill/vcarve_pro.png)
 
@@ -66,14 +66,13 @@ Seattle Makers uses [Vectric's VCarve Pro](https://www.vectric.com/products/vcar
 
 The [documentation for CNCJS](https://cnc.js.org/docs/) is a good resource.
 
-### VCarve Designing
-
 **Job Setup**
+
 Assuming a Single Sided project or "Job Type" as it is called in VCarve:
 
 - Configure your job Size dimensions: width (x axis), length (y axis) and your material thickness.
 - Set Z Zero Position to be Material Surface
-- Set Datum Position to be Material Surface  
+- Set Datum Position to be Material Surface
 ![VCarve Job Setup](../static/img/cnc-mill/vcarve_job_setup.png)
 
 **Draw your Project**
@@ -103,7 +102,35 @@ With the VCarve Maker Space Client Edition, you can save your design and toolpat
 
 > Note: Quite often, members setup their toolpaths in the maker space instead of at home where they may not know all the bit specific settings. You cannot export the G-Code at home, this requires the fully licensed version of VCarve.
 
-## Safety
+## Fusion 360 Designing
+
+![Fusion 360](../static/img/cnc-mill/fusion360_logo.png)
+
+**Coming Soon**
+
+I run  MacOS and I want to focus my learning on Fusion 360 which I also use for Electronics work. So this is my process and when I dial it in, I'll share here.
+
+1. Design
+2. Arrange
+3. Manufacture
+   1. Setup
+   2. Tool Paths
+      1. Feeds and Speeds
+   3. Post Process
+
+## CNC Setup
+
+1. Make sure the CNC is clear of everything not related to your project and clean of dust.
+1. Clamp your spoil board and your workpiece to the machine bed.
+You should be able to push firmly on your workpiece and the machine (not your workpiece) should move first.
+1. Install the first bit you will use in your project.
+1. Zero the Bit
+1. Setup the dust collection
+1. Set the router spindle speed using the dial on the top\side of the router.
+
+![Dewalt 611 Speeds](../static/img/cnc-mill/dewalt_611_speeds.png)
+
+### Safety
 
 You will need:
 
@@ -114,27 +141,6 @@ You will need:
 Let everyone in the wood shop know before you turn on the router so they can also put on hearing protection. Close the door to the wood shop as well.
 
 When the router is running, you should be ready to PAUSE the CNC with the mouse, or turn off the CNC completely by using the switch with red tape on it. This means you're standing at the keyboard area.
-
-### Fusion 360 Designing
-
-![Fusion 360](../static/img/cnc-mill/fusion360_logo.png)
-
-**Coming Soon**
-
-I run  MacOS and I want to focus my learning on Fusion 360 which I also use for Electronics work.
-So this is my process and when I dial it in, I'll share here.
-
-## CNC Setup
-
-1. Make sure the CNC is clear of everything not related to your project and clean of dust.
-1. Clamp your spoil board and your workpiece to the machine bed.  
-You should be able to push firmly on your workpiece and the machine (not your workpiece) should move first.
-1. Install the first bit you will use in your project.
-1. Zero the Bit
-1. Setup the dust collection
-1. Set the router spindle speed using the dial on the top\side of the router.
-
-![Dewalt 611 Speeds](../static/img/cnc-mill/dewalt_611_speeds.png)
 
 ### Clamping Your Workpiece
 
@@ -147,7 +153,7 @@ This image shows how you use the clamps provided. The blocks on the backside of 
 
 ### Router Bit Installation
 
-If your project uses more than one bit, such as a v-bit for letting and an end mill for cutting out shapes, install the first bit you will use. 
+If your project uses more than one bit, such as a v-bit for letting and an end mill for cutting out shapes, install the first bit you will use.
 
 >Note: You should always cut-out your project as the last step so your project remains firmly held in-place for all the other steps.
 
@@ -171,7 +177,7 @@ If you can't push the gantry around, the CNC is on. *STOP* and turn off the CNC.
 
 **X, Y Axis Zero**
 
-Using the CNCJS program, move the bit using the X and Y controls to place the tip of the bit directly over the "X" you drew at the center of your work piece. When you are happy with the positioning, click the Zero Work Position for the X and Y axis in CNCJS. 
+Using the CNCJS program, move the bit using the X and Y controls to place the tip of the bit directly over the "X" you drew at the center of your work piece. When you are happy with the positioning, click the Zero Work Position for the X and Y axis in CNCJS.
 
 ![CNCJS Zero Position](../static/img/cnc-mill/CNCJS_zero_work_position.png)
 
@@ -249,7 +255,7 @@ Change bits and run your next cut or move on to cleaning up if you are done.
 
 **Tabs**
 
-- If you're cutting through your material with this tool path, you need to add the through cut amount back to your tabs. For example: If your cutting to a depth of 15mm to cut all the way through your 12 mm material, you should add those 3mm back to your tabs. So a 9mm thick tab would actually be 6mm. 
+- If you're cutting through your material with this tool path, you need to add the through cut amount back to your tabs. For example: If your cutting to a depth of 15mm to cut all the way through your 12 mm material, you should add those 3mm back to your tabs. So a 9mm thick tab would actually be 6mm.
 - Use 3-D Tabs as a preferred setting.
 
 **Profile Toolpaths**
@@ -258,14 +264,14 @@ Change bits and run your next cut or move on to cleaning up if you are done.
 - To leave some material for sanding or other finishing work, you can use the offset allowance in the Machine Vectors.
 - When setting up a profile toolpath, also select "Separate Last Pass" to get a better final cut quality.
     - The last pass will remove your material allowance if you don't also have and allowance on the last pass as well.
-    
+
 **3-D or Toolpath Preview**
 
 - If the preview doesn't look like you expect, click "Reset Preview" and then replay the preview.
 
 **2D Toolpath alignment**
 
-- Show your toolpaths and be sure they are properly lined up (on top of your drawing). If not re-calculate your toolpaths to align your toolpaths with any design changes you've made. In this example you can see the toolpath for "Door" is below where it should be. As opposed to the perfectly aligned toolpath for the circle below it.  
+- Show your toolpaths and be sure they are properly lined up (on top of your drawing). If not re-calculate your toolpaths to align your toolpaths with any design changes you've made. In this example you can see the toolpath for "Door" is below where it should be. As opposed to the perfectly aligned toolpath for the circle below it.
 ![2D Toolpath Alignment](../static/img/cnc-mill/2d_toolpath_alignment.png)
 
 ### Bits
@@ -290,7 +296,7 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 
 - [Vectric VCarve Pro ](https://www.vectric.com/products/vcarve-pro) Product Site
 - [Vectric's YouTube Channel](https://www.youtube.com/user/Vectric)
-- [CNCJS](https://cnc.js.org/) Project Site 
+- [CNCJS](https://cnc.js.org/) Project Site
 - [CNCJS Documentation](https://cnc.js.org/docs/)
 
 
@@ -300,7 +306,7 @@ For higher quality cuts and specialty bits, [McMaster-Carr is a great sours of r
 - **611**: The Dewalt 611 Router
 - **611 Dial**: The router RPM setting dial on the Dewalt 611 Router
 - **DOC**: Depth of Cut, how deep you are (or can) cut with a specific bit
-- **Feed**: The speed of the bit in the X\Y axis 
+- **Feed**: The speed of the bit in the X\Y axis
 - **Plunge**: The speed of the bit in the Z axis
 - **RPM**: Revolutions per Minute of the router bit
 - **X0Y0**: This CNCJS button moves the router to the X\Y work position home.
